@@ -1,3 +1,4 @@
+#Function to check whether the number provided for us age is a number and is a certain type (default = int)
 def get_number(prompt, cast_type=int, min_val=None, max_val=None):
     while True:
         try:
@@ -13,6 +14,7 @@ def get_number(prompt, cast_type=int, min_val=None, max_val=None):
         except ValueError:
             print("Provided value is not a number")
 
+#Function to check whether the string is not empty
 def get_non_empty_string(prompt):
     while True:
         value = input(prompt)
