@@ -15,7 +15,7 @@ def main():
         for k in recommendations: 
            print(k["name"])
     else:
-        print("No recommendations found. Try: games, music")
+        print("No recommendations found. Try: battleroyale, sandbox")
 
 if __name__ == "__main__":
     main()
